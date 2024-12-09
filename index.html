@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Api</title>
+</head>
+<body>
+
+
+    <!-- ======================= Start  Navbar ============================== -->
+    <nav
+     class="navbar navbar-expand-lg bg-body-tertiary py-4 nav-img">
+        <div class="container">
+          <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+            <img src="imag/nav.png" class="w-75" alt="">
+            <div>
+                <h6 class="text-white ms-4">Weather</h6>
+                <p 
+                class="text-white ms-4 paragraph">
+                tagline goes here
+                 </p>
+              </div>
+    
+          </a>
+          
+          <button 
+            class="navbar-toggler"
+             type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+               aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+              <li class="nav-item pe-2">
+                <a class="nav-link active px-4 rounded-pill text-white" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link px-4 rounded-pill text-white" href="#News">News</a>
+              </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link  px-4 rounded-pill text-white" href="#LiveCameras">Live Cameras</a>
+              </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link  px-4 rounded-pill text-white" href="second.html">Photos</a>
+              </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link  px-4 rounded-pill text-white" href="main.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ======================= End  Navbar ============================== -->  
+      <!-- ======================= Start Section ============================== -->  
+
+      <main>
+        <section class="search-section">
+            
+          <form action="" class="py-5 d-flex justify-content-center align-items-baseline">
+            <div class="w-75">
+              <input type="search" class="form-control rounded-pill" placeholder="Find Your Location" id="SearchInput">
+              <label for="SearchInput"></label>
+          </div>
+          <div>
+              <button class="rounded-pill text-white px-4 ms-4" id="btnFind">Find</button>
+
+          </div>
+          </form>
+
+          <div id="current" class="text-center current">
+
+          </div>
+        </section>
+      </main>
+      <!-- ======================= End Section ============================== -->  
+       <footer class="py-4 pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 d-flex align-items-center">
+              <div class="w-75 pe-1 pt-4">
+                <input type="email" placeholder="Enter your email to Subscribe" 
+                class="form-control rounded-pill" id="emailContril" >
+                <label for="emailContril"></label>
+              </div>
+              <div>
+                <button class="rounded-pill text-white px-4 ms-4 ">Subscribe</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex align-items-center justify-content-center icons pt-4">
+                <i class="fa-brands fa-facebook fs-4 p-2 me-2"></i>
+                <i class="fa-brands fa-twitter fs-4 p-2 me-2"></i>
+                <i class="fa-brands fa-google fs-4 p-2 me-2"></i>
+                <i class="fa-brands fa-pinterest fs-4 p-2"></i>
+            </div>
+
+            </div>
+          </div>
+          <p class="text-white mt-4 pb-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+
+       </footer>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

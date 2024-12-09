@@ -1,0 +1,94 @@
+.nav-img
+{
+    background-color: rgb(33, 37, 41) !important;
+    
+}
+.nav-img .paragraph
+{
+    font-size: 10px;
+}
+.navbar-nav .nav-link.active
+{
+    border: 2px solid #009AD8;
+    padding: 8px 24px;
+}
+nav .navbar-nav a
+{
+    font-size: 18px;
+    transition: all .1s;
+}
+ nav .navbar-nav a:hover
+ {
+    border: 2px solid #009AD8;
+    padding: 8px 24px;
+ } 
+ /* ************************************************* */
+ .search-section
+ {
+    background-image: url(../imag/landscape-with-grass.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+ }
+
+  button
+ {
+    background-color: #009AD8;
+    border: 1px solid transparent;
+   padding: 8px !important;
+ }
+ /* ********************************************* */
+ .data
+ {
+    background-color: rgb(30, 32, 43);
+    color: rgb(33, 37, 41);
+    height: 90vh;
+ }
+ .card
+ {
+    background-color: rgb(38,41,54);
+ }
+ .card-item
+ {
+    vertical-align: middle;
+    overflow-clip-margin :content-box;
+    overflow-wrap :break-word;
+    overflow-x: clip;
+    overflow-y: clip;
+    text-align: center;
+    text-size-adjust: 100%;
+     vertical-align :middle;
+ }
+ /* ************************************************ */
+ footer
+ {
+    background-color: rgb(38, 41, 54);
+ }
+ .icons i
+ {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #009AD8;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .1s;
+    cursor: pointer;
+ }
+ .icons i:hover
+ {
+    background-color: #009AD8;
+    color: white;
+ }
+/* ***********************  main html  ****************************** */
+.image-frame
+{
+ background-image: url(../imag/colorful-sunset-sea.jpg);
+ height: 100vh;
+ background-position: center center;
+ background-size: cover;
+ overflow: hidden;
+}
+ 
